@@ -1,0 +1,16 @@
+div a{
+text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+div a:hover {
+    color: #ff5080;
+}
+@media screen and (max-width:800px) {
+    .redes{
+        font-size: 75%;
+        width: 100%;
+    }
+}

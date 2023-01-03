@@ -1,0 +1,27 @@
+section {
+    background-color: #ff5080;
+}
+#inicio {
+   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(22, 5, 48, 0.97);
+ position: fixed;
+ width: 100%;
+ z-index: 100;
+ top: 0;
+}
+#inicio h1 {
+    text-align: center;
+    /*color: rgb(40,23,67);*/
+    color: #ff5080;
+}
+@media screen and (max-width:800px) {
+    section h1{
+        font-size: 100%;
+      
+  }
+  }
