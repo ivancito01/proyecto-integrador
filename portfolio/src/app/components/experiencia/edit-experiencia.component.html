@@ -1,0 +1,23 @@
+<h1>EDICION DE EXPERIENCIA LABORAL</h1>
+<div class="container" *ngIf="expLab">
+  <div class="row">
+    <div>
+      <form  (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+        <div class="form-group">
+          <label for="nombreE">Nombre Empresa</label>
+          <input type="text" class="form-control" id="nombreE" name="nombreE"[(ngModel)]="expLab.nombreE" required>
+        </div>
+        <div class="form-group">
+          <label for="descripcionE">Descripcion del empleo</label>
+          <input type="text" class="form-control" id="descripcionE" name="descripcionE"[(ngModel)]="expLab.descripcionE" required>
+        </div>
+        <button class="btn btn-danger" type="submit">ACTUALIZAR</button>
+      </form>
+      <div class="col-lg-2">
+        <button type="button" class="btn btn-success" routerLink="/home" >
+          ir a inicio
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

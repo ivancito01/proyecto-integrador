@@ -2,5 +2,7 @@
     <h1>&#60;/IM&#62;</h1>
     <app-logoarg></app-logoarg>
     <app-redes></app-redes>
+    <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Ingresar</button>
+    <button type="button" class="btn btn-outline-light" (click)="onLogOut()"*ngIf="isLogged">Cerrar sesion</button>
 </section>
 <app-baner></app-baner>

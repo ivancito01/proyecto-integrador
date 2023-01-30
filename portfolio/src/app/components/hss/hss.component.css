@@ -1,0 +1,6 @@
+.row{
+    background-color: rgb(231, 179, 216);
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+}
